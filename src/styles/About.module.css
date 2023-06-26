@@ -1,0 +1,536 @@
+.about,
+.about * {
+  box-sizing: border-box;
+}
+.about {
+  background: linear-gradient(
+    0deg,
+    rgba(240, 248, 236, 1) 0%,
+    rgba(248, 248, 236, 1) 100%
+  );
+  width: 1512rem;
+  height: 982rem;
+  position: relative;
+  overflow: hidden;
+}
+.navi-bar {
+  position: absolute;
+  inset: 0;
+}
+.homepage {
+  color: #262628;
+  text-align: left;
+  font: 400 16rem "Alef", sans-serif;
+  position: absolute;
+  left: 102rem;
+  top: 45rem;
+  width: 78rem;
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-1 {
+  background: #4db193;
+  border-radius: 12rem;
+  border-style: solid;
+  border-color: #4db193;
+  border-width: 1.5rem;
+  width: 202rem;
+  height: 45rem;
+  position: absolute;
+  left: 1192rem;
+  top: 45rem;
+}
+.ellipse-2 {
+  border-radius: 50%;
+  width: 45rem;
+  height: 45rem;
+  position: absolute;
+  left: 1417rem;
+  top: 45rem;
+}
+.fi-rr-following {
+  position: absolute;
+  left: 1356rem;
+  top: 58rem;
+  width: 18rem;
+  height: 18rem;
+  overflow: visible;
+}
+.health-assessment {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16rem "Alef", sans-serif;
+  position: absolute;
+  left: 1207rem;
+  top: 46rem;
+  width: 142rem;
+  height: 42rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.drug-interactions {
+  color: #262628;
+  text-align: left;
+  font: 400 16rem "Alef", sans-serif;
+  position: absolute;
+  left: 1028rem;
+  top: 45rem;
+  width: 129rem;
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.life-advices {
+  color: #262628;
+  text-align: right;
+  font: 400 16rem "Alef", sans-serif;
+  position: absolute;
+  left: 902rem;
+  top: 45rem;
+  width: 91rem;
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.health-risk-evaluation {
+  color: #262628;
+  text-align: right;
+  font: 400 16rem "Alef", sans-serif;
+  position: absolute;
+  left: 703rem;
+  top: 45rem;
+  width: 164rem;
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo {
+  position: absolute;
+  left: 50rem;
+  top: 51rem;
+  width: 32rem;
+  height: 32rem;
+  overflow: visible;
+}
+.scroll-down {
+  width: 1400rem;
+  height: 900rem;
+  position: absolute;
+  left: 102rem;
+  top: 210rem;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+}
+
+.scroll-down::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+.title {
+  position: absolute;
+  inset: 0;
+}
+.health-track {
+  color: #262628;
+  text-align: left;
+  font: 400 85rem/95rem "Angkor", sans-serif;
+  font-family: ;
+  position: absolute;
+  left: 23rem;
+  top: 121rem;
+  width: 647rem;
+  height: 89rem;
+}
+.the-health-track-calculator-utilizes-user-provided-information-including-age-lifestyle-and-medical-conditions-to-effectively-analyze-relevant-databases-this-analysis-yields-real-life-disease-data-tailored-to-the-user-s-specific-information-furthermore-the-healthtrack-calculator-offers-personalized-advice-on-adopting-healthy-lifestyles {
+  color: rgba(38, 38, 40, 0.6);
+  text-align: left;
+  font: 400 20rem/35rem "Alef", sans-serif;
+  position: absolute;
+  left: 23rem;
+  top: 240rem;
+  width: 578rem;
+  height: 178rem;
+}
+.start {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: linear-gradient(
+    90deg,
+    rgba(77, 177, 147, 1) 0%,
+    rgba(222, 251, 140, 1) 100%
+  );
+  border-radius: 35rem;
+  border-width: 0rem;
+  border-style: solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(77, 177, 147, 1) 0%,
+    rgba(222, 251, 140, 1) 100%
+  );
+  border-image-slice: 1;
+  width: 264rem;
+  height: 73rem;
+  position: absolute;
+  left: 18rem;
+  top: 0rem;
+}
+.get-started {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24rem/100rem "Alef", sans-serif;
+  position: absolute;
+  left: 46rem;
+  top: 19rem;
+  width: 153rem;
+  height: 34rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fi-rr-arrow-small-right {
+  position: absolute;
+  width: 35rem;
+  height: 35rem;
+  left: 216rem;
+  top: 19rem;
+  overflow: visible;
+}
+.next {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-22 {
+  background: #fde383;
+  border-radius: 50%;
+  width: 120rem;
+  height: 120rem;
+  border-color: transparent;
+  position: absolute;
+  left: 18rem;
+  top: 547rem;
+  cursor:crosshair ;
+}
+.fi-rr-arrow-down {
+  position: absolute;
+  left: 47.45rem;
+  top: 576.45rem;
+  width:62rem;
+  height:62rem;
+  overflow: visible;
+}
+.illustration {
+  position: absolute;
+  width: 661rem;
+  height: 524rem;
+  left: 699rem;
+  top: 73rem;
+  overflow: visible;
+}
+.we-aim-to {
+  color: #4db193;
+  text-align: center;
+  font: 400 36rem/95rem "Angkor", sans-serif;
+  position: absolute;
+  left: 370rem;
+  top: 892rem;
+  width: 639rem;
+  height: 67rem;
+}
+.provide-a-simple-to-use-aesthetic-and-interactive-website-with-vast-useful-knowledge-and-information-for-useusers-as-well-as-raise-their-awarenesses-of-health-isuues {
+  color: #030000;
+  text-align: center;
+  font: 400 30rem/50rem "Alef", sans-serif;
+  position: absolute;
+  left: 117rem;
+  top: 991rem;
+  width: 1146rem;
+  height: 180rem;
+}
+.illustration-2 {
+  position: absolute;
+  inset: 0;
+}
+.illustration2 {
+  width: 340.41rem;
+  height: 349.78rem;
+  position: absolute;
+  left: 477.24rem;
+  top: 1467.15rem;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 0rem;
+  top: 0.62rem;
+  width: 340rem;
+  height: 350rem;
+  overflow: visible;
+}
+.common-helath-isuues {
+  width: 952rem;
+  height: 648rem;
+  position: static;
+}
+.cancer {
+  color: rgba(75, 168, 140, 0.75);
+  text-align: center;
+  font: 400 40rem/48rem "Alatsi", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 858rem;
+  top: 1396rem;
+  width: 230rem;
+  height: 39rem;
+}
+.stroke {
+  color: rgba(75, 168, 140, 0.75);
+  text-align: center;
+  font: 400 40rem/48rem "Alatsi", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 633rem;
+  top: 1913rem;
+  width: 230rem;
+  height: 39rem;
+}
+.chronic-diseases {
+  color: rgba(75, 168, 140, 0.75);
+  text-align: center;
+  font: 400 40rem/48rem "Alatsi", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 871rem;
+  top: 1745rem;
+  width: 295rem;
+  height: 37rem;
+}
+.obesity {
+  color: rgba(75, 168, 140, 0.75);
+  text-align: center;
+  font: 400 40rem/48rem "Alatsi", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 355rem;
+  top: 1357rem;
+  width: 177rem;
+  height: 39rem;
+}
+.heart-disease {
+  color: rgba(75, 168, 140, 0.75);
+  text-align: center;
+  font: 400 40rem/48rem "Alatsi", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 550rem;
+  top: 1304rem;
+  width: 321rem;
+  height: 37rem;
+}
+.diabetes {
+  color: rgba(75, 168, 140, 0.75);
+  text-align: center;
+  font: 400 40rem/48rem "Alatsi", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 937rem;
+  top: 1567rem;
+  width: 229rem;
+  height: 40rem;
+}
+.asthma {
+  color: rgba(75, 168, 140, 0.75);
+  text-align: center;
+  font: 400 40rem/48rem "Alatsi", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 214rem;
+  top: 1528rem;
+  width: 229rem;
+  height: 39rem;
+}
+.high-blood-pressure {
+  color: rgba(75, 168, 140, 0.75);
+  text-align: center;
+  font: 400 40rem/48rem "Alatsi", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 237rem;
+  top: 1800rem;
+  width: 265rem;
+  height: 96rem;
+}
+.lines {
+  position: absolute;
+  width: 642rem;
+  height: 539rem;
+  left: 378rem;
+  top: 1365rem;
+  overflow: visible;
+}
+.vector219 {
+  position: absolute;
+  width: 120rem;
+  height: 121rem;
+  left: 18rem;
+  top: 2096.05rem;
+  overflow: visible;
+}
+.vector221 {
+  position: absolute;
+  width: 120rem;
+  height: 121rem;
+  left: 29rem;
+  top: 2898.05rem;
+  overflow: visible;
+}
+.ellipse-24 {
+  background: #f0f8ec;
+  border-radius: 50%;
+  width: 120rem;
+  height: 120rem;
+  position: absolute;
+  left: 29rem;
+  top: 2862rem;
+}
+.fi-rr-arrow-down3 {
+  width: 62rem;
+  height: 62rem;
+  position: absolute;
+  left: 58.45rem;
+  top: 2891.45rem;
+  overflow: visible;
+}
+.vector223 {
+  position: absolute;
+  width: 520rem;
+  height: 508rem;
+  left: 807.63rem;
+  top: 2355.62rem;
+  overflow: visible;
+}
+.before-using-health-track {
+  color: #262628;
+  text-align: left;
+  font: 700 40rem/100rem "Alef", sans-serif;
+  position: absolute;
+  left: 12rem;
+  top: 2355rem;
+  width: 645rem;
+  height: 74rem;
+}
+.we-expect-you-to-have-a-health-assessment-otherwise-you-might-not-able-to-use-the-complete-servuces-privided-by-our-product-the-report-will-only-be-used-as-a-reference-for-your-immediate-health-status {
+  color: #262628;
+  text-align: left;
+  font: 400 17rem/34rem "Alef", sans-serif;
+  position: absolute;
+  left: 12rem;
+  top: 2459rem;
+  width: 645rem;
+  height: 103rem;
+}
+.group-1 {
+  cursor: pointer;
+  width: 321rem;
+  height: 64rem;
+  position: static;
+}
+.rectangle-11 {
+  background: #4db193;
+  border-radius: 13rem;
+  width: 321rem;
+  height: 64rem;
+  position: absolute;
+  left: 12rem;
+  top: 2594rem;
+}
+.fi-rr-caret-right {
+  position: absolute;
+  width: 33rem;
+  height: 25rem;
+  left: 286rem;
+  top: 2614rem;
+  overflow: visible;
+}
+.start-of-health-assessment {
+  color: #ffffff;
+  background-color: transparent;
+
+  text-align: center;
+  font: 400 20rem/36rem "Alef", sans-serif;
+  position: absolute;
+  left: 12rem;
+  top: 2594rem;
+  width: 295rem;
+  height: 64rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-2 {
+  width: 238rem;
+  height: 64rem;
+  position: static;
+}
+.rectangle-12 {
+  border-radius: 13rem;
+  border-style: solid;
+  border-color: #4db193;
+  border-width: 2rem;
+  width: 238rem;
+  height: 64rem;
+  position: absolute;
+  left: 373rem;
+  top: 2594rem;
+}
+.start-it-later {
+  color: #4db193;
+  text-align: center;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font: 400 20rem/36rem "Alef", sans-serif;
+  position: absolute;
+  left: 373rem;
+  top: 2594rem;
+  width: 238rem;
+  height: 64rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-3 {
+  width: 319rem;
+  height: 36rem;
+  position: static;
+}
+.takes-about {
+  color: #4db193;
+  text-align: left;
+  font: 400 14rem/36rem "Alef", sans-serif;
+  position: absolute;
+  left: 173rem;
+  top: 2706rem;
+  width: 158rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._10-mins {
+  color: #4db193;
+  text-align: center;
+  font: 400 32rem/36rem "Angkor", sans-serif;
+  position: absolute;
+  left: 12rem;
+  top: 2706rem;
+  width: 157rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

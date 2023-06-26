@@ -1,0 +1,10 @@
+{
+    "Cancer" : "Cancer",
+    "Stroke" : "Stroke",
+    "Chronic" : "Chronic diseases",
+    "Obesity" : "Obesity",
+    "Heart" : "Heart Disease",
+    "Diabetes" : "Diabetes",
+    "Asthma" : "Asthma",
+    "High" : "High blood pressure"
+}
