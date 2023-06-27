@@ -59,7 +59,7 @@
   top: 58rem;
   width: 18rem;
   height: 18rem;
-  overflow: visible;
+  overflow: hidden;
   cursor: pointer;
 }
 .health-assessment {
