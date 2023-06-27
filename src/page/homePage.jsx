@@ -24,7 +24,7 @@ export const About = ({ ...props }) => {
       <div className={styles["scroll-down"]}>
         <FrontText />
         <StartButton />
-        <NextButton left ="18rem" top ="547rem"/>
+        <NextButton left ="18rem" top ="600rem"/>
         <FrontPageDoctor />
         <AimText />
 
