@@ -55,7 +55,7 @@ export const About = ({ ...props }) => {
             />
           </svg>
 
-          <NextButton left="18rem" top="2036rem" leftA="47.45rem" topA="2065.45rem"/>
+          <NextButton left="18rem" top="2036rem"/>
         </div>
 
         <FrontBlankSpace />
