@@ -1,6 +1,6 @@
 @media (max-width: 2600px) {
   html {
-    font-size: 1.5px;
+    font-size: 1.75px;
   }
 }
 
@@ -8,7 +8,7 @@
 
 @media (max-width: 2400px) {
   html {
-    font-size: 1.4px;
+    font-size: 1.6px;
   }
 }
 
@@ -16,7 +16,7 @@
 
 @media (max-width: 2200px) {
   html {
-    font-size: 1.3px;
+    font-size: 1.45px;
   }
 }
 
@@ -24,14 +24,14 @@
 
 @media (max-width: 2000px) {
   html {
-    font-size: 1.2px;
+    font-size: 1.3px;
   }
 }
 
 
 @media (max-width: 1800px) {
   html {
-    font-size: 1.1px;
+    font-size: 1.15px;
   }
 }
 
