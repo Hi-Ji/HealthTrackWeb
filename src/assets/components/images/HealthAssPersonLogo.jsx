@@ -22,7 +22,7 @@ const HealthAssPersonLogo = () => (
     </g>
     <defs>
       <clipPath id="clip0_10_114">
-        <rect width="18" height="18" fill="white" />
+        <rect width="18rem" height="18rem" fill="white" />
       </clipPath>
     </defs>
       </svg>
