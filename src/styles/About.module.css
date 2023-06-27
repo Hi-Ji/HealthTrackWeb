@@ -8,7 +8,7 @@
     rgba(240, 248, 236, 1) 0%,
     rgba(248, 248, 236, 1) 100%
   );
-  width: 1512rem;
+  width: 100%;
   height: 982rem;
   position: relative;
   overflow: hidden;
@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  cursor: pointer;
 }
 .rectangle-1 {
   background: #4db193;
@@ -41,6 +42,7 @@
   position: absolute;
   left: 1192rem;
   top: 45rem;
+  cursor: pointer;
 }
 .ellipse-2 {
   border-radius: 50%;
@@ -49,6 +51,7 @@
   position: absolute;
   left: 1417rem;
   top: 45rem;
+  cursor: pointer;
 }
 .fi-rr-following {
   position: absolute;
@@ -57,6 +60,7 @@
   width: 18rem;
   height: 18rem;
   overflow: visible;
+  cursor: pointer;
 }
 .health-assessment {
   color: #ffffff;
@@ -70,6 +74,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  cursor: pointer;
 }
 .drug-interactions {
   color: #262628;
@@ -83,6 +88,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  cursor: pointer;
 }
 .life-advices {
   color: #262628;
@@ -96,6 +102,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  cursor: pointer;
 }
 .health-risk-evaluation {
   color: #262628;
@@ -109,6 +116,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  cursor: pointer;
 }
 .logo {
   position: absolute;
@@ -123,7 +131,7 @@
   height: 900rem;
   position: absolute;
   left: 102rem;
-  top: 210rem;
+  top: 120rem;
   overflow-y: auto;
   -ms-overflow-style: none;
 }
@@ -133,7 +141,7 @@
 }
 .title {
   position: absolute;
-  inset: 0;
+  top: 60rem;
 }
 .health-track {
   color: #262628;
@@ -158,7 +166,7 @@
 }
 .start {
   position: absolute;
-  inset: 0;
+  top: 50rem;
 }
 .rectangle-5 {
   background: linear-gradient(
@@ -203,6 +211,7 @@
   overflow: visible;
 }
 .next {
+  height: 10rem;
   position: absolute;
   inset: 0;
 }
@@ -215,15 +224,16 @@
   position: absolute;
   left: 18rem;
   top: 547rem;
-  cursor:crosshair ;
+  cursor:pointer ;
 }
 .fi-rr-arrow-down {
   position: absolute;
   left: 47.45rem;
-  top: 576.45rem;
+  top: 629.45rem;
   width:62rem;
   height:62rem;
   overflow: visible;
+  cursor: pointer;
 }
 .illustration {
   position: absolute;
@@ -255,6 +265,7 @@
 }
 .illustration-2 {
   position: absolute;
+  height:20rem;
   inset: 0;
 }
 .illustration2 {
@@ -275,7 +286,7 @@
 }
 .common-helath-isuues {
   width: 952rem;
-  height: 648rem;
+  height: 60rem;
   position: static;
 }
 .cancer {
