@@ -8,8 +8,14 @@ html{
     }
 }
 
+@media (max-width: 1150px){
+  html {
+    font-size: 0.65px;
+  }
+}
+
 @media (max-width: 1000px){
   html {
-    font-size: 0.6px;
+    font-size: 0.5px;
   }
 }
