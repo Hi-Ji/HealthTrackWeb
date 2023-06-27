@@ -147,7 +147,6 @@
   color: #262628;
   text-align: left;
   font: 400 85rem/95rem "Angkor", sans-serif;
-  font-family: ;
   position: absolute;
   left: 23rem;
   top: 121rem;
@@ -164,10 +163,13 @@
   width: 578rem;
   height: 178rem;
 }
+
 .start {
   position: absolute;
   top: 50rem;
 }
+
+
 .rectangle-5 {
   background: linear-gradient(
     90deg,
@@ -182,14 +184,36 @@
     rgba(77, 177, 147, 1) 0%,
     rgba(222, 251, 140, 1) 100%
   );
+  box-shadow: 0 20px 30px -6px rgba(97, 238, 139, 0.5);
   border-image-slice: 1;
   width: 264rem;
   height: 73rem;
   position: absolute;
   left: 18rem;
   top: 0rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
+
+.rectangle-5:hover{
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.rectangle-5:active{
+  opacity: 0.5;
+}
+
+.rectangle-5 > svg{
+  transition: transform .3s ease-in-out;
+}
+
+.rectangle-5:hover svg {
+  transform: translateX(5rem);
+}
+
 .get-started {
+  cursor: pointer;
   color: #ffffff;
   text-align: left;
   font: 700 24rem/100rem "Alef", sans-serif;
@@ -203,10 +227,11 @@
   justify-content: flex-start;
 }
 .fi-rr-arrow-small-right {
+  cursor: pointer;
   position: absolute;
   width: 35rem;
   height: 35rem;
-  left: 216rem;
+  left: 200rem;
   top: 19rem;
   overflow: visible;
 }
@@ -215,6 +240,8 @@
   position: absolute;
   inset: 0;
 }
+
+
 .ellipse-22 {
   background: #fde383;
   border-radius: 50%;
@@ -224,17 +251,45 @@
   position: absolute;
   left: 18rem;
   top: 547rem;
+  border-width: 3rem;
   cursor:pointer ;
+  box-shadow: 0 20px 30px -6px rgba(227, 255, 85, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
 }
+
+.ellipse-22:hover{
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+.ellipse-22:active{
+  opacity: 0.5;
+}
+
+.ellipse-22 > svg{
+  transition: all 0.3s ease-in-out;
+}
+
+.ellipse-22:hover svg{
+  transform:scaleX(0.8);
+  transform: scaleY(1.2);
+}
+
+/* Arrow Svg inside the button */
 .fi-rr-arrow-down {
   position: absolute;
-  left: 47.45rem;
-  top: 629.45rem;
+  /* left: 20rem;
+  top: 10rem; */
   width:62rem;
   height:62rem;
   overflow: visible;
   cursor: pointer;
 }
+
+
 .illustration {
   position: absolute;
   width: 661rem;
@@ -276,14 +331,14 @@
   top: 1467.15rem;
   overflow: hidden;
 }
-.group {
+/* .group {
   position: absolute;
   left: 0rem;
   top: 0.62rem;
   width: 340rem;
   height: 350rem;
   overflow: visible;
-}
+} */
 .common-helath-isuues {
   width: 952rem;
   height: 60rem;
@@ -446,12 +501,12 @@
   width: 645rem;
   height: 103rem;
 }
-.group-1 {
+/* .group-1 {
   cursor: pointer;
   width: 321rem;
   height: 64rem;
   position: static;
-}
+} */
 .rectangle-11 {
   background: #4db193;
   border-radius: 13rem;
@@ -484,11 +539,11 @@
   align-items: center;
   justify-content: center;
 }
-.group-2 {
+/* .group-2 {
   width: 238rem;
   height: 64rem;
   position: static;
-}
+} */
 .rectangle-12 {
   border-radius: 13rem;
   border-style: solid;
@@ -516,11 +571,11 @@
   align-items: center;
   justify-content: center;
 }
-.group-3 {
+/* .group-3 {
   width: 319rem;
   height: 36rem;
   position: static;
-}
+} */
 .takes-about {
   color: #4db193;
   text-align: left;
